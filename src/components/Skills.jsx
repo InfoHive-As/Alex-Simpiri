@@ -17,7 +17,7 @@ export default function Skills() {
           <Wrench size={24} /> Skills & Core Competencies
         </h2>
         <p className="section-subtitle">
-          Specialized expertise across public relations, resource mobilization & monitoring
+          Technical proficiency across IT systems, conservation tech, web & digital platforms
         </p>
       </div>
 

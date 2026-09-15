@@ -6,8 +6,8 @@ export default function Hero({ onCopyEmail }) {
   return (
     <section className="hero wrap">
       <div className="eyebrow-badge">
-        <MapPin size={14} />
-        <span>{personalInfo.location}</span>
+        <span className="pulse-dot"></span>
+        <span>Active IT & Conservation Tech Officer · {personalInfo.location}</span>
       </div>
 
       <h1>{personalInfo.name}</h1>
@@ -15,9 +15,16 @@ export default function Hero({ onCopyEmail }) {
       
       <p className="hero-tagline">{personalInfo.tagline}</p>
 
+      <div className="hero-highlights">
+        <span className="highlight-chip"><MapPin size={13} /> Laikipia, Kenya</span>
+        <span className="highlight-chip">📡 EarthRanger & Ecoscope</span>
+        <span className="highlight-chip">💻 Computer Science & IT</span>
+        <span className="highlight-chip">🦁 NMK Mammals Team</span>
+      </div>
+
       <div className="cta-row">
         <a className="btn primary" href={`mailto:${personalInfo.email}`}>
-          <Mail size={16} /> Email me
+          <Mail size={16} /> Contact Email
         </a>
         <a
           className="btn"
@@ -29,11 +36,11 @@ export default function Hero({ onCopyEmail }) {
         </a>
         <a
           className="btn"
-          href={personalInfo.consultancy}
+          href={personalInfo.organizationUrl}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Globe size={16} /> {personalInfo.consultancyName}
+          <Globe size={16} /> {personalInfo.organizationName}
         </a>
         <button
           className="btn"

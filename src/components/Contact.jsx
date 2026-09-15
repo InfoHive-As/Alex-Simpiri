@@ -12,7 +12,7 @@ export default function Contact({ onCopyEmail }) {
           <Mail size={24} /> Let's Connect
         </h2>
         <p style={{ color: 'var(--text-muted)', fontSize: '1.02rem', marginBottom: 20 }}>
-          I am always interested in discussing strategic communications roles, grant opportunities, M&E frameworks, partnership development, or advisory initiatives. Feel free to connect or reach out directly:
+          I am always open to discussing IT support roles, conservation technology initiatives, web development projects, biodiversity monitoring, and digital communication collaborations. Feel free to connect or reach out directly:
         </p>
 
         <div className="contact-info">
@@ -30,9 +30,9 @@ export default function Contact({ onCopyEmail }) {
 
           <div className="contact-item">
             <Globe size={16} />
-            <strong>Consultancy:</strong>
-            <a href={personalInfo.consultancy} target="_blank" rel="noopener noreferrer">
-              kishonconsulting.co.ke
+            <strong>Organization:</strong>
+            <a href={personalInfo.organizationUrl} target="_blank" rel="noopener noreferrer">
+              naibungalowerconservancy.org
             </a>
           </div>
         </div>
@@ -51,11 +51,11 @@ export default function Contact({ onCopyEmail }) {
           </a>
           <a
             className="btn"
-            href={personalInfo.consultancy}
+            href={personalInfo.organizationUrl}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Globe size={16} /> Kishon Consulting
+            <Globe size={16} /> Naibunga Conservancy
           </a>
           <button
             className="btn"

@@ -39,11 +39,11 @@ export default function Navbar({ theme, toggleTheme }) {
       <div className="wrap">
         <div className="header-brand">
           <a href="#" className="logo-avatar" aria-label="Home">
-            AL
+            AS
           </a>
           <div className="logo-text">
             <span>{personalInfo.name}</span>
-            <span>Comm's, PR & Grants Specialist</span>
+            <span>{personalInfo.shortTitle}</span>
           </div>
         </div>
 

@@ -10,7 +10,7 @@ export default function Education() {
           <GraduationCap size={24} /> Education & Academic Background
         </h2>
         <p className="section-subtitle">
-          Higher education in journalism, mass media & corporate communications
+          Computer Science diploma and educational qualifications
         </p>
       </div>
 

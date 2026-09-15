@@ -17,7 +17,7 @@ export default function Initiatives() {
           <Rocket size={24} /> Key Achievements & Publications
         </h2>
         <p className="section-subtitle">
-          Major initiatives, conservation campaigns, grant proposals & field reports
+          Selected digital & web projects, conservation tech platforms & field assessments
         </p>
       </div>
 
